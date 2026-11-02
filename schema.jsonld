@@ -1,0 +1,128 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "@id": "https://www.lemurianstudios.com/services/website-design-rochester-ny#service",
+      "name": "Website design in Rochester, NY",
+      "serviceType": "Web design",
+      "url": "https://www.lemurianstudios.com/services/website-design-rochester-ny",
+      "description": "Website designers for Rochester, New York businesses. We design and build custom sites, brands and 3D animation.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://www.lemurianstudios.com/#organization",
+        "name": "Lemurian Studios",
+        "legalName": "Auxelerate LLC",
+        "url": "https://www.lemurianstudios.com",
+        "email": "sam@lemurianstudios.com"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Rochester, New York",
+          "sameAs": "https://www.wikidata.org/wiki/Q49218"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Monroe County, New York"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Ontario County, New York"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Wayne County, New York"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Livingston County, New York"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Orleans County, New York"
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services for Rochester businesses",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Website design",
+              "url": "https://www.lemurianstudios.com/services/web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Small business web design",
+              "url": "https://www.lemurianstudios.com/services/small-business-web-design"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Brand identity design",
+              "url": "https://www.lemurianstudios.com/services/brand-identity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "3D design and animation",
+              "url": "https://www.lemurianstudios.com/services/3d-design"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.lemurianstudios.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Web design",
+          "item": "https://www.lemurianstudios.com/services/web-design"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Web design in New York",
+          "item": "https://www.lemurianstudios.com/services/web-design-new-york"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Rochester, NY",
+          "item": "https://www.lemurianstudios.com/services/website-design-rochester-ny"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can you make a technical product easy to understand?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mostly it's a matter of structure. We work from your specs and your best explanation, then lay the page out so a buyer gets the gist on the first screen and the detail further down."
+          }
+        }
+      ]
+    }
+  ]
+}

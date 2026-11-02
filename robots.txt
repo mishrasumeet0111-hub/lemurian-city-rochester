@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rochester.lemurianstudios.com/sitemap.xml
